@@ -1,0 +1,26 @@
+.tours{
+    display: flex;
+    justify-content: center;
+    font-family: "Metal Mania";
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tours__ticket{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+   max-width: 57%;
+   margin-left: 25%;
+   padding: 10px;
+}
+.tour_ticket_btn{
+    width: 19%;
+    background: #56CCF2;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

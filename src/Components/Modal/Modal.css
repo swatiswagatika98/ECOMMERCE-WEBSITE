@@ -1,0 +1,111 @@
+.icon{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    color: rgb(121, 117, 117);
+    font-size:xx-large;
+}
+.modal__cart{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: "Metal Mania";
+    font-size: 30px;
+}
+.ul__list{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: bold;
+   
+  
+}
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.total{
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.purchaseBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;   
+}
+
+.main_btn{
+    background: #56CCF2;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8%;
+    padding: 12px;
+    cursor: pointer;
+    width: 8rem;
+}
+
+.modal__data{
+    display: flex;
+    align-items: center;
+   
+    padding-bottom: 10px;
+    padding-top: 1px;
+    
+}
+
+.cart__img{
+    margin-top: 1rem;
+    width: 80px;
+    border-radius: 8%;
+    margin-right: 20px;
+}
+.img__div{
+    display: flex;
+    align-items: center;
+    border-top: 2px solid red;
+    max-width: 142px;
+}
+
+.cart__price {
+    margin-left: 3rem;
+    max-width: 100px;
+    border-top: 2px solid red;
+    padding: 39px;
+  }
+
+  .cart__btn{
+    color: white;
+    font-weight: bold;
+    background: rgb(231, 76, 76);
+    cursor: pointer;
+    border: none;
+    border-radius: 8%;
+    height: 30px;
+    padding: 0px 7px; 
+}
+.btn_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid red;
+    padding: 33px;
+    max-width: 50px;
+    margin-left: 1.5rem;
+
+}
+.btn_div, span{
+    margin-right: 1rem;
+   
+}
+
+.main__container {
+    max-height: 557px; /* Set the maximum height for the container */
+    overflow-y: scroll; /* Enable vertical scrolling when content exceeds the height */
+  }

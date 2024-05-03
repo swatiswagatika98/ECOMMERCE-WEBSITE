@@ -1,0 +1,43 @@
+.heading{
+    text-align: center;
+    padding-bottom: 65px;
+    font-size: 100px;
+    background: #777;
+    color: white;
+}
+.about{
+   display: flex;
+   justify-content: center;
+   font-weight: bold;
+   font-size: 33px;
+   margin-top: 10px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 50px;
+    
+}
+.img_div{
+    display: flex;
+    justify-content: center;
+    max-width: 1036px;
+    max-height:300px;
+    margin-left: 8rem;
+}
+
+.img_div_p{
+    margin: 20px;
+    text-align: justify;
+    color: #777;
+    font-size: 17px;
+
+}
+.para{
+    text-align: justify;
+    margin-top: -20px;
+    color: #777;
+    font-size: 17px;
+}

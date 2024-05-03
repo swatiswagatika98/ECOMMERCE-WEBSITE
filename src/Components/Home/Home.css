@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}.home__h1{
+    padding-bottom: 30px;
+    color: white;
+    padding: 40px;
+    font-size: 100px;
+}
+.home__p{
+    text-align:center;
+    padding: 15px 30px;
+    font-size: 23px;
+    font-weight: 200;
+    margin: 10px auto;
+    background: inherit;
+    cursor: pointer;
+    color: white;
+   
+}
+.home__heading{
+    background: #777;
+    border: 1px solid #56CCF2;
+}
+
+.music__playerBtn{
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(86, 204, 242);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(86, 204, 242);
+    border-image: initial;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px auto;
+    background: inherit;
+}

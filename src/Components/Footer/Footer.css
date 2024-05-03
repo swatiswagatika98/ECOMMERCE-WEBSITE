@@ -1,0 +1,32 @@
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 15px;
+    background: #56CCF2;
+}
+.footer-title{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+   
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+  
+    
+} 
+.footer ul li {
+    margin-right: 5rem;
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  .footer ul li:hover {
+   background-color: #ede4e4;
+   cursor: pointer;
+  }
